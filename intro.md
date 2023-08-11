@@ -79,3 +79,59 @@ int ID_USER = 11111;
 ```{java}
 String COLOMBIA_ADDRESS = "CR 18 Sur Guatape";
 ```
+- ¿Qué es un tipo de dato?
+  son aquellos tipos de valores que puede tomar las varibales, así mismo que determinan la cantidad de memoria que usan dentro del       
+  codigo. Dichos datos se dividen en dos categorías : Primitivos y de referencia.
+
+  Primitivos: Representan valores individuales y están diseñados para ser eficientes. son:
+    bytes: (8bits) almacena valores enteros
+    short: (16 bits) valores enteros mayores
+    int: (32 bits) almacena valores enteros
+    long: 64 bits, almacena valores enteros más grandes que el int.
+    float: 32 bits, almacena valores de punto flotante (números decimales) con aproximación.
+    double: 64 bits, almacena valores de punto flotante con mayor precisión que el float.
+    char: 16 bits, almacena un único carácter (Unicode)
+    boolean: representa un valor booleano, que puede ser verdadero (true) o falso (false)
+  
+  Valores de referencia: Estos tipos de datos se utilizan para almacenar referencias a objetos en memoria, en lugar de almacenar         
+  directamente los valores. Los tipos de datos de referencia incluyen:
+
+  Clases: Las clases son definiciones de objetos y sus propiedades/métodos. Por ejemplo, 'String', 'ArrayList', etc.
+    Interfaces: Las interfaces definen contratos para métodos que las clases deben implementar.
+    Arrays: Los arrays permiten almacenar múltiples valores del mismo tipo en una estructura indexada.
+    Enumeraciones (Enums): Los enums son tipos especiales que representan un conjunto de constantes con nombre.
+    Tipos de datos personalizados: Puedes definir tus propios tipos de datos utilizando clases y estructuras personalizadas
+  
+- ¿Por qué hay diferentes tipos de dato que almacenan el mismo tipo de valor?
+  Como se mencionó anteriormente, hay ciertos tipos de códigos que implementan mas memoria que otros, al momento de declarar variable es   importante saber que cantidad de memoria puede o debe usar la variable, esto con motivos de optimizar el código en cuestión y evitar   
+  el uso de recrusos inncesarios de la máquina
+- ¿Qué es inicializar una variable o constante?:
+  Inicializar una variable en programación significa asignarle un valor inicial en el momento de su creación. Cuando declaras una   
+  variable, estás reservando un espacio en la memoria para almacenar algún tipo de dato. Sin embargo, hasta que le asignas un valor, el 
+  contenido de ese espacio en memoria puede ser cualquier cosa. ej:
+
+   ``` {java}
+   int numero; //declara la variable
+    numero=10; //inicializa la variable
+   ```
+- ¿Qué pasa si no inicializamos una variable?
+     tu PC  explota
+
+- Declare las siguientes variables:
+  "nombre" para almacenar un nombre
+  ````{java}
+  import java.util.Scanner;
+  {
+  String nombre;
+  system.out.println("Ingrese nombre");
+  nombre = scanner.nextLine();
+  scanner.close();
+  }
+  
+    
+
+
+
+
+
+    
